@@ -1,0 +1,7 @@
+{
+  "data_policy": "code-only; no data bundled or fetched",
+  "file_count": 83,
+  "payload_sha256": "2d985d846b836068dff7251baf05843f3222196eaf44c7396192b3e9385186f3",
+  "schema": "mpas-pytorch-public-release.v1",
+  "version": "0.1.7"
+}

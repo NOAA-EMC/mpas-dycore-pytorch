@@ -1,0 +1,13 @@
+{
+  "mesh": "x1.10242",
+  "url": "https://www2.mmm.ucar.edu/projects/mpas/atmosphere_meshes/x1.10242.tar.gz",
+  "archive_bytes": 6321104,
+  "archive_sha256": "4dde31932bc45aaf467e2717d17ec8e5e54d73c3ebbeea027087bfdb8b98ab56",
+  "grid_member": "x1.10242.grid.nc",
+  "grid_bytes": 14014372,
+  "grid_sha256": "729a77fddd829ad5206661a9478d8473454552e3b3c5a1af768f4128e188295c",
+  "nCells": 10242,
+  "nEdges": 30720,
+  "nVertices": 20480,
+  "single_rank_partition": "one zero per cell"
+}

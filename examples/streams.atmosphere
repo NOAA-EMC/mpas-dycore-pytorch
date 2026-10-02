@@ -1,0 +1,12 @@
+<streams>
+  <immutable_stream name="input" type="input" filename_template="x1.10242.init.nc"
+                    input_interval="initial_only" />
+  <stream name="output" type="output" filename_template="history.$Y-$M-$D_$h.$m.$s.nc"
+          output_interval="00:12:00" clobber_mode="never_modify" precision="double">
+    <var name="u" /><var name="w" /><var name="theta" /><var name="rho" />
+    <var_array name="scalars" />
+  </stream>
+  <stream name="restart" type="input;output" filename_template="restart.$Y-$M-$D_$h.$m.$s.nc"
+          input_interval="initial_only" output_interval="00:24:00"
+          clobber_mode="never_modify" precision="double" />
+</streams>
